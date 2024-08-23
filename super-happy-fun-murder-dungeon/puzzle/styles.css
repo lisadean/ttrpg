@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chamber {
+    text-align: center;
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.crystal {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.large {
+    width: 75px;
+    height: 75px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.small {
+    top: 50%;
+}
+
+#crystal-1 {
+    left: 20%;
+    transform: translateY(-150%);
+}
+
+#crystal-2 {
+    left: 50%;
+    transform: translate(-50%, -250%);
+}
+
+#crystal-3 {
+    right: 20%;
+    transform: translateY(-150%);
+}
+
+.green {
+    background-color: green;
+}
+
+.clear {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.sign {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    border: 2px solid #c0a16b;
+    padding: 10px;
+    background-color: #40342d;
+}
+
+#reset-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+}
